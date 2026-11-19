@@ -148,7 +148,7 @@ EX-20, explicando su función.
 | **c. Recipiente absorbente de CO₂** | Parte inferior del ensamblaje del sistema respiratorio (costado izquierdo frontal), debajo del bloque del fuelle. | Contiene cal sodada (material absorbente) que elimina químicamente el CO₂ exhalado por el paciente en el circuito circular, permitiendo la reinhalación segura de los gases frescos y anestésicos sin riesgo de hipercapnia. |
 | **d. Fuelle** | Parte superior del módulo del sistema respiratorio (lado izquierdo), alojado dentro de una campana transparente graduada. | Actúa como interfaz neumática entre el gas impulsor del ventilador y el gas del paciente para suministrar el volumen corriente en ventilación mecánica. Al ser ascendente, también sirve como indicador visual de fugas o desconexiones si no logra elevarse completamente durante la espiración. |
 
-<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b86e719-d075-43b2-a8b1-eba645391c87" />
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/7c8766b1-c15f-4ba8-ada7-5445b27d4cb8" />
 <img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/aa4b3462-5309-4bdc-a562-4bd28cff3101" />
 <img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/47c005ad-469f-44ae-bdbf-7e620c0b6fc6" />
 
