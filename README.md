@@ -12,17 +12,38 @@ Práctica: Reconocimiento de partes y funcionamiento de una maquina de anestesia
 * Samuel Esteban Fonseca Luna — 5600808
 * Laura Daniela Triana Molano — 5600828
 
-<h2 align="center">𝙞𝙣𝙩𝙧𝙤𝙙𝙪𝙘𝙘𝙞ó𝙣</h2>
-
-<h2 align="center">𝙤𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨</h2>
-
-𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤 𝙜𝙚𝙣𝙚𝙧𝙖𝙡: 
-
-
-
+<h2 align="center">I𝙣𝙩𝙧𝙤𝙙𝙪𝙘𝙘𝙞ó𝙣</h2>
  
+La máquina de anestesia es uno de los equipos biomédicos más críticos del entorno quirúrgico. Su función es mantener al paciente en un estado de inconsciencia controlada, estable y reversible, mientras le suministra oxígeno, lo ventila y le administra una mezcla de gases y agentes anestésicos en concentraciones precisas [14]. Para lograrlo integra varios subsistemas que trabajan en conjunto: el sistema de suministro de gases de alta, intermedia y baja presión; los flujómetros y vaporizadores; el sistema respiratorio o circuito circular con absorbedor de CO₂; el ventilador; los sensores de presión, flujo y oxígeno, y el sistema de evacuación de gases residuales (AGSS).
+ 
+El margen de error en estos equipos es estrecho. Administrar demasiado anestésico puede causar daño cerebral o paro cardíaco, mientras que administrar muy poco puede hacer que el paciente despierte durante la cirugía. Aunque las estaciones de anestesia modernas han reducido considerablemente estos riesgos, la mayoría de las fallas que todavía ocurren están relacionadas con el usuario: verificaciones preoperatorias omitidas, conexiones mal hechas o desconocimiento del equipo [15], [16]. Por eso, para el ingeniero biomédico es fundamental conocer la arquitectura de la máquina, sus pruebas de funcionamiento y sus alarmas, ya que es quien apoya al personal clínico en la gestión, el mantenimiento y la solución de fallas del equipo.
+ 
+En esta práctica se estudió la máquina de anestesia Mindray WATO EX-20 disponible en el laboratorio de la universidad. A partir de la revisión de literatura y de los manuales del fabricante, se identificaron sus partes principales, se analizó el funcionamiento del sistema respiratorio y del ventilador, y se revisaron los procedimientos de verificación y las fallas más frecuentes descritas por el fabricante.
+ 
+<h2 align="center">O𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨</h2>
+ 
+𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤 𝙜𝙚𝙣𝙚𝙧𝙖𝙡: 
+ 
+Reconocer los componentes, el funcionamiento y las labores de mantenimiento de la máquina de anestesia Mindray WATO EX-20, comprendiendo la función de cada uno de sus subsistemas dentro del procedimiento anestésico.
+
 𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨 𝙀𝙨𝙥𝙚𝙘𝙞́𝙛𝙞𝙘𝙤𝙨:
 
+Identificar y ubicar las partes principales de la máquina de anestesia WATO EX-20 (vaporizador, válvula APL, recipiente absorbente de CO₂ y fuelle), explicando la función de cada una.
+Comprender el funcionamiento del sistema respiratorio, del ventilador y de sus modos de operación (VCV y modo presión), así como la configuración de parámetros como la pausa inspiratoria.
+Reconocer la importancia de las pruebas preoperatorias y de las labores de mantenimiento (prueba de fugas de alta y baja presión, reemplazo de la cal sodada, calibración del sensor de O₂).
+Analizar las fallas más frecuentes de los subsistemas de la máquina, sus causas y su relación con la seguridad del paciente, a partir del manual del fabricante.
+<h2 align="center">𝙋𝙧𝙤𝙘𝙚𝙙𝙞𝙢𝙞𝙚𝙣𝙩𝙤</h2>
+
+La práctica fue de tipo demostrativo y se desarrolló en las siguientes etapas:
+
+Revisión bibliográfica previa: se consultó literatura sobre tipos de anestesia, gases medicinales y sistemas respiratorios, junto con el manual de operación y el manual de servicio de la WATO EX-20 [4], [9], para responder las preguntas de la Parte A. La información obtenida con herramientas de IA generativa se verificó contra estas fuentes.
+Normas de seguridad: se ingresó al laboratorio con bata, pantalón largo y cabello recogido. El equipo no se encendió ni se manipuló sin la presencia del técnico encargado.
+Reconocimiento físico del equipo: con el acompañamiento del técnico se recorrió la máquina por módulos: entradas de gases y cilindros de respaldo, manómetros, flujómetros, vaporizador, botón de flujo rápido de O₂, sistema respiratorio (fuelle, válvula APL, interruptor bolsa/ventilador, absorbedor de CO₂) y pantalla del ventilador.
+Registro fotográfico: se tomaron fotografías de la máquina y de sus partes principales, que se usaron para ubicar y señalar el vaporizador, la válvula APL, el recipiente absorbente de CO₂ y el fuelle (Parte B, punto 1).
+Exploración de la interfaz del ventilador: se recorrieron los menús del equipo (modo de ventilación, ajuste de alarmas, ajustes de usuario y mantenimiento) y se identificaron los parámetros de ventilación, entre ellos la pausa inspiratoria (TIP:TI).
+Revisión de pruebas y mantenimiento: se revisaron en el manual los procedimientos de verificación preoperatoria (fugas del sistema de alta presión, prueba de presión negativa del sistema de baja presión, prueba del sistema de control de flujo y calibración del sensor de O₂), el criterio de cambio de la cal sodada y la respuesta ante la alarma “batería en uso”, para responder la Parte B.
+Análisis de fallas: se consultó el capítulo de solución de problemas del manual de servicio [9] para identificar las fallas de cada subsistema y ordenarlos según su número de fallas asociadas.
+Documentación: toda la información recopilada se organizó en este repositorio de GitHub, en el que los tres integrantes figuran como colaboradores.
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
@@ -202,8 +223,84 @@ En la máquina de anestesia WATO EX-20, el sistema de presión negativa cumple d
 
 1. **Prueba de fugas del sistema de baja presión:** Durante la verificación preoperatoria se conecta un **bulbo o pera de succión de presión negativa** a la salida común de gas fresco (CGO). Al comprimir el bulbo se genera vacío en el circuito de baja presión (flujómetros, vaporizador y conductos hacia la CGO); si el bulbo permanece colapsado durante al menos **10 segundos** sin volver a inflarse, se confirma que no hay fugas en esta sección.
 2. **Evacuación de gases anestésicos residuales (AGSS) y succión clínica:** Durante la operación en quirófano, la presión negativa (vacío) permite extraer de forma segura los gases anestésicos exhalados y liberados por la válvula APL y el ventilador a través del sistema AGSS, evitando la contaminación del quirófano y la exposición ocupacional del personal de salud (además de alimentar módulos de aspiración de secreciones si el equipo dispone de ellos).
-
+<h1 align="center"><i><b>𝐀𝐧á𝐥𝐢𝐬𝐢𝐬 𝐝𝐞 𝐫𝐞𝐬𝐮𝐥𝐭𝐚𝐝𝐨𝐬</b></i></h1>
+ 
+### Análisis 1. Fallas que pueden presentarse en los subsistemas de la máquina de anestesia y sus causas
+ 
+El capítulo 5 (*Troubleshooting*) del manual de servicio de las WATO EX-20/30/35 [9] agrupa las fallas en alarmas técnicas, problemas del circuito neumático y problemas de hardware y eléctricos. A continuación se resumen las fallas más representativas de cada subsistema:
+ 
+| Subsistema | Fallas típicas | Causas principales |
+| :--- | :--- | :--- |
+| **Suministro de gases y gas impulsor** (alta presión) | Alarmas “Fallo suministro O₂” y “Presión gas impulsor baja”; fugas; manómetro de tubería inexacto o fluctuante. | Presión de la red o del cilindro insuficiente (la alarma de suministro de O₂ se activa por debajo de unos 200 kPa); mangueras, sellos o conectores rápidos dañados; filtros o tubos obstruidos; interruptor de presión defectuoso o mal ajustado. |
+| **Sistema de suministro de anestésico** (flujómetros, vaporizador, flujo rápido de O₂) | Fugas en el vaporizador o en el botón de flujo rápido; flotador inexacto o atascado; enlace O₂/N₂O inefectivo; el N₂O no se corta cuando falla el O₂. | Vaporizador mal montado o con sellos dañados; colector del vaporizador averiado; flujómetro dañado; válvula de corte O₂–N₂O averiada; sellos internos del interruptor del sistema deteriorados. |
+| **Sistema respiratorio / circuito del paciente** | Fugas durante la ventilación manual o mecánica; lectura errónea de la concentración de O₂; lecturas erróneas del manómetro o del sensor de flujo. | Recipiente de CO₂ mal instalado o con sellos dañados; fuelle o campana mal montados o rotos; tapa de válvulas mal colocada; vaso colector de agua flojo; tubos del paciente dañados; agua sobre el sensor de O₂ o dentro del sensor de flujo; sensor de O₂ sin calibrar o agotado. |
+| **Ventilador y medición de volumen** | “VT no alcanzado”, “Pinsp no alcanzada”, volumen corriente inexacto, “Paciente desconectado?”, presión sostenida en vía aérea. | Fugas en el circuito con bajo flujo de gas fresco; sensor de flujo mal instalado, húmedo, sucio o con la membrana deformada; deriva del cero del sensor de presión; límite de presión (Plimit) ajustado muy bajo; fallas de las válvulas inspiratoria, PEEP o de seguridad. |
+| **Alimentación eléctrica y electrónica** | “Batería en uso”, “Voltaje batería bajo”, apagado por agotamiento de batería; pantalla apagada; la máquina no enciende; ventilación detenida; teclado o perilla sin respuesta; alarmas sin sonido; fallas de comunicación. | Cable de CA desconectado o batería deteriorada; fusibles quemados; transformador de aislamiento o fuente CA-CC averiados; cables internos sueltos; software o hardware de la tarjeta de potencia o de monitoreo defectuoso; tarjeta de botones o altavoz dañados. |
+| **Módulos opcionales** (CO₂, calefactor del circuito) | Línea de muestreo ocluida, sin trampa de agua, error de cero o de calibración; falla del calentador. | Humedad u obstrucción en la línea de muestreo; trampa de agua mal conectada; módulo descalibrado; termistor o resistencia calefactora dañados. |
+ 
+En general, las causas se pueden agrupar en tres categorías: **(1)** errores de montaje o de conexión por parte del usuario (piezas mal asentadas, mangueras sueltas, cable de alimentación desconectado); **(2)** desgaste de consumibles y piezas blandas (sellos, empaques, membranas, sensor de O₂, cal sodada, batería), y **(3)** fallas de componentes electrónicos o neumáticos internos (tarjetas, válvulas, interruptores de presión), que son las menos frecuentes y requieren servicio técnico.
+ 
+### Análisis 2. Subsistemas ordenados según el número de fallas asociadas
+ 
+Para ordenar los subsistemas se contaron las entradas (filas) de las tablas de solución de problemas del capítulo 5 del manual de servicio [9]. Las cifras son aproximadas, porque algunas filas agrupan varias alarmas relacionadas.
+ 
+| Puesto | Subsistema (sección del manual) | N.º aprox. de fallas/alarmas |
+| :---: | :--- | :---: |
+| 1 | Unidad principal: ventilador, sensores y control (5.2.1) | 40 |
+| 2 | Hardware y sistema eléctrico: alimentación, batería, pantalla, teclado, red (5.5) | 30 |
+| 3 | Circuito del paciente / sistema respiratorio (5.3.4) | 26 |
+| 4 | Módulo de CO₂ (5.2.3)\* | 18 |
+| 5 | Sistema de suministro de anestésico: flujómetros, vaporizador, flujo rápido de O₂ (5.3.3) | 13 |
+| 6 | Exactitud del volumen corriente: sensores de flujo (5.3.5) | 11 |
+| 7 | Suministro de gases y gas impulsor (5.3.2) | 8 |
+| 8 | Módulo calefactor (5.2.4)\* | 4 |
+| 9 | Módulo de control auxiliar (5.2.2) | 3 |
+ 
+\* Módulos opcionales que no necesariamente están presentes en la configuración básica de la WATO EX-20.
+ 
+**Interpretación:** el subsistema con más fallas registradas es la unidad principal del ventilador, porque concentra la mayoría de los sensores (presión, flujo, O₂), las válvulas y las alarmas de supervisión. Le siguen el sistema eléctrico y el circuito del paciente. Si se suman las fallas del circuito del paciente (26) y las de exactitud del volumen corriente (11), que en la práctica dependen del mismo conjunto de piezas desmontables, el **sistema respiratorio** se convierte en la parte de la máquina con más fallas asociadas. Esto coincide con que es el subsistema que más se desmonta, limpia y esteriliza, y por tanto el más expuesto a errores de montaje y desgaste de sellos. Además, 17 de sus 26 fallas son **fugas**.
+ 
+<h1 align="center"><i><b>𝐏𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐩𝐚𝐫𝐚 𝐥𝐚 𝐝𝐢𝐬𝐜𝐮𝐬𝐢ó𝐧</b></i></h1>
+ 
+### Pregunta 1. ¿Qué tipos de anestésicos son los más usados en cirugía?
+ 
+En la práctica actual la anestesia general es *balanceada*: se combinan varios fármacos, cada uno con un efecto específico (hipnosis, analgesia y relajación muscular), para usar dosis menores de cada uno y reducir sus efectos adversos [13]. Los grupos más usados son:
+ 
+| Grupo | Fármacos más usados | Uso principal |
+| :--- | :--- | :--- |
+| **Anestésicos inhalatorios** | Sevoflurano (el más usado, también en niños por su olor poco irritante), desflurano, isoflurano y óxido nitroso como coadyuvante. | Mantenimiento de la anestesia general; el sevoflurano también se usa para la inducción inhalatoria. Se administran a través del vaporizador de la máquina. |
+| **Anestésicos intravenosos (hipnóticos)** | Propofol (el más usado para la inducción y en la anestesia total intravenosa), ketamina y etomidato. El tiopental está prácticamente en desuso. | Inducción de la anestesia general, sedación y mantenimiento intravenoso. |
+| **Opioides** | Fentanilo, remifentanilo y sufentanilo. | Analgesia durante y después de la cirugía. |
+| **Relajantes neuromusculares** | Rocuronio, cisatracurio y succinilcolina (para intubación rápida). | Relajación muscular para la intubación y el campo quirúrgico. |
+| **Benzodiacepinas** | Midazolam. | Premedicación, ansiolisis y sedación. |
+| **Anestésicos locales** | Lidocaína, bupivacaína y ropivacaína. | Anestesia local, bloqueos de nervios periféricos y anestesia espinal y epidural. |
+ 
+### Pregunta 2. ¿Qué diferencias plantea el modelo EX-35 con respecto al EX-20?
+ 
+Ambos modelos son de la misma familia WATO de Mindray y comparten la arquitectura básica: flujómetros mecánicos para O₂, N₂O y aire, hasta dos vaporizadores, sistema respiratorio compacto y un ventilador controlado electrónicamente y accionado neumáticamente [9], [11]. La EX-35 es un modelo de gama superior, con estas diferencias principales:
+ 
+| Característica | WATO EX-20 | WATO EX-35 |
+| :--- | :--- | :--- |
+| **Pantalla** | TFT a color de 7", manejada con teclas y perilla [11]. | Pantalla táctil de 10,4" (1024 × 768) [10], [12]. |
+| **Modos de ventilación** | VCV, modo presión (P), SIMV y manual [11]. | Manual/espontáneo, VCV, PCV, SIMV-VC, SIMV-PC y presión de soporte (PSV) con ventilación de respaldo por apnea [10]. |
+| **Volumen corriente mínimo** | 40 mL [11]. | 20 mL en modo volumen y 5 mL en modo presión; apta desde neonatos hasta adultos [10]. |
+| **PEEP** | La ficha técnica solo la reporta como parámetro monitorizado [11]. | PEEP electrónica integrada, ajustable de 3 a 30 cmH₂O [10]. |
+| **Pausa inspiratoria (TIP:TI)** | Apagada o de 5 % a 60 %, en pasos de 5 % [11]. | Apagada o de 5 % a 60 %, en pasos de 1 % [10]. |
+| **Monitoreo de gases** | Presión, volumen y O₂; módulo externo de EtCO₂ solo para la EX-30 [11]. | Módulos *plug-and-play* de CO₂ y de gases anestésicos (CO₂, N₂O, O₂ y agentes, con identificación automática y cálculo de CAM) [10], [12]. |
+| **Gas impulsor** | O₂, sin función de cambio automático. | Cambio automático del gas impulsor (de O₂ a aire) si falla el suministro principal, para no interrumpir la ventilación mecánica [12]. |
+| **Autonomía de batería** | Hasta 150 min con baterías auxiliares [17]. | Unos 90 min con una batería y 240 min con dos [10]. |
+| **AGSS** | No especificado en la ficha consultada [11]. | Pasivo o activo de alto o bajo flujo (opcional) [10]. |
+| **Tamaño y peso** | 1375 mm de alto, < 120 kg [11]. | 1410 mm de alto, < 145 kg [10]. |
+ 
+En resumen, la EX-20 es una estación básica orientada a pacientes pediátricos y adultos y a procedimientos de rutina, mientras que la EX-35 amplía los modos de ventilación (incluidos los de soporte para respiración espontánea), permite ventilar neonatos, integra la PEEP electrónica y el monitoreo de gases, y agrega funciones de seguridad como el cambio automático del gas impulsor.
+ 
 # <h2 align="center"> CONCLUSIóN </h2>
+ 
+La práctica permitió reconocer que la máquina de anestesia WATO EX-20 no es un equipo inaccesible, sino un conjunto organizado de subsistemas (suministro de gases, control de flujo, vaporización, sistema respiratorio, ventilador y evacuación de gases) cuyo funcionamiento correcto depende tanto del diseño del equipo como de su uso y mantenimiento. Se identificaron sus partes principales y se comprendió la función de cada una, el funcionamiento de los modos de ventilación VCV y modo presión, y la importancia de las verificaciones preoperatorias.
+ 
+Al revisar las fallas descritas por el fabricante se concluye que **las causas más comunes no son fallas electrónicas complejas, sino problemas de montaje, conexión y mantenimiento**. La mayoría de las fallas registradas en el manual se concentran en el sistema respiratorio, donde predominan las fugas por piezas mal asentadas (recipiente de CO₂, fuelle, tapa de válvulas, sensores) o por sellos y empaques desgastados. Esto se explica porque es el subsistema que más se desmonta para limpieza y esterilización. Otra causa frecuente es la falta de mantenimiento de los consumibles: sensores de O₂ sin calibrar o agotados, sensores de flujo con humedad, cal sodada agotada o desecada y baterías deterioradas. Por último, aparecen los problemas de suministro, como presiones de gas insuficientes o el cable de alimentación desconectado, que activan alarmas como “Fallo suministro O₂” o “batería en uso”.
+ 
+Estas causas comparten un origen humano y, por lo tanto, son en gran medida prevenibles. La prueba de fugas de alta y baja presión, la verificación del sistema respiratorio, la calibración de sensores, el cambio oportuno de la cal sodada y la revisión de la batería antes de cada procedimiento son las herramientas más efectivas para evitarlas. En este proceso, el ingeniero biomédico tiene un papel clave: capacitar al personal en el uso del equipo, ejecutar el mantenimiento preventivo según el manual del fabricante y saber interpretar las alarmas para diagnosticar fallas con rapidez, ya que cualquier error en este equipo afecta directamente la vida del paciente.
 
 <h2 align="center">𝘽𝙞𝙗𝙡𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙖</h2>
 [1] Anaesthesia. (2023, 9 marzo). https://es.patient.info/treatment-medication/anaesthesia
