@@ -141,6 +141,69 @@ En el WATO EX-20:
 EX-20, explicando su función.
 <img width="1920" height="750" alt="image" src="https://github.com/user-attachments/assets/368bbcce-b775-4c16-bd16-667382415d0e" />
 
+## Parte B
+
+### 1. Identificación, ubicación y función de partes de la máquina de anestesia WATO EX-20
+
+| Componente | Ubicación en la WATO EX-20 | Función |
+| :--- | :--- | :--- |
+| **a. Vaporizador** | Parte frontal izquierda/central superior del cuerpo principal, montado sobre el colector/riel tipo Selectatec. | Convierte el agente anestésico líquido volátil (p. ej., sevoflurano, isoflurano o desflurano) en vapor y lo dosifica con precisión en el flujo de gas fresco antes de ingresar al circuito respiratorio del paciente. |
+| **b. Válvula APL** (*Adjustable Pressure-Limiting*) | Parte superior del módulo del circuito respiratorio, junto al interruptor Bolsa/Ventilador y al manómetro de presión de vía aérea. | Regula y limita la presión máxima dentro del circuito durante la ventilación manual o espontánea, liberando el exceso de gas hacia el sistema de evacuación (AGSS) para prevenir barotrauma. |
+| **c. Recipiente absorbente de CO₂** | Parte inferior del ensamblaje del circuito respiratorio (costado izquierdo frontal de la máquina), debajo del bloque del fuelle. | Contiene cal sodada (absorbente químico) que elimina el CO₂ exhalado por el paciente en el circuito semicerrado/cerrado, permitiendo la reinhalación segura de los gases frescos y anestésicos sin riesgo de hipercapnia. |
+| **d. Fuelle** | Parte superior del módulo del circuito respiratorio (lado izquierdo), dentro de una campana transparente graduada. | Actúa como interfaz neumática entre el gas impulsor del ventilador y el gas del paciente para entregar el volumen corriente en ventilación mecánica. Al ser un fuelle ascendente, también permite detectar visualmente fugas o desconexiones si no logra subir por completo durante la espiración. |
+
+> *Nota: Insertar aquí la fotografía de la máquina WATO EX-20 señalando las 4 partes (ej. `![Partes WATO EX-20](ruta/de/la/imagen.png)`).*
+
+---
+
+### 2. Acción ante el mensaje "Batería en uso" con el paciente conectado
+
+Cuando el ventilador muestra el mensaje **"Batería en uso"**, significa que se ha perdido el suministro eléctrico de corriente alterna (CA) y el equipo está funcionando únicamente con su batería interna de respaldo. Las acciones a ejecutar son:
+
+1. **Verificar inmediatamente el suministro eléctrico:** Comprobar que el cable de alimentación esté bien conectado a la toma de corriente de la pared, verificar el interruptor principal y confirmar si hubo un corte de energía en el quirófano.
+2. **Mantener la monitorización y continuidad de la ventilación:** No desconectar al paciente de forma abrupta; la batería interna permite operar temporalmente (aproximadamente 90 minutos con una batería nueva y completamente cargada, o hasta 150 minutos con dos baterías) mientras se soluciona el fallo eléctrico.
+3. **Preparar ventilación de respaldo:** Vigilar el indicador de carga de la batería. Si no es posible restablecer la alimentación de CA antes de que se agote la batería, prepararse para cambiar a **ventilación manual** (usando el interruptor Bolsa/Ventilador) o disponer de un resucitador manual (bolsa autoinflable) y una fuente alternativa de oxígeno para garantizar la seguridad del paciente.
+
+---
+
+### 3. Frecuencia de reemplazo del recipiente absorbente de CO₂
+
+El absorbente de CO₂ (cal sodada) debe inspeccionarse antes de cada procedimiento y reemplazarse cuando se cumpla cualquiera de las siguientes condiciones:
+
+* **Cambio de color del indicador:** Cuando el material absorbente cambie de color (por ejemplo, de blanco a violeta/púrpura según el fabricante) en aproximadamente **dos tercios (2/3)** de la columna del recipiente, o de acuerdo con las indicaciones específicas del fabricante de la cal sodada.
+* **Elevación de CO₂ inspirado ($FiCO_2$):** Si el monitor de capnografía muestra un aumento en el CO₂ inspirado por el paciente, lo cual confirma el agotamiento real del absorbente (es el criterio más confiable, ya que el color puede revertirse parcialmente cuando el equipo queda en reposo).
+* **Desecación o inactividad prolongada:** Si la máquina ha permanecido sin uso durante un período prolongado o con flujo continuo de gas que haya resecado la cal sodada, ya que el absorbente seco puede generar reacciones exotérmicas peligrosas y producir monóxido de carbono o compuestos tóxicos al entrar en contacto con anestésicos volátiles.
+
+---
+
+### 4. Procedimiento para verificar fugas en el cilindro de alta presión
+
+Para comprobar la estanqueidad del sistema de alta presión (cilindros de respaldo de O₂ o N₂O) en la WATO EX-20:
+
+1. **Desconectar** las mangueras de suministro de gas de la red central (tuberías de pared) para aislar el sistema de cilindros.
+2. **Cerrar** completamente todas las válvulas de control de flujo (flujómetros) en el panel frontal.
+3. **Abrir lentamente** la válvula del cilindro a evaluar y observar la presión registrada en el manómetro correspondiente del cilindro (verificando que tenga presión suficiente para la prueba).
+4. **Cerrar** por completo la válvula del cilindro.
+5. **Observar el manómetro** durante **1 minuto**.
+6. **Evaluar el resultado:** La presión debe mantenerse estable. Si se observa una caída significativa de presión (superior a **50 psi / ~0.35 MPa** en 1 minuto para O₂, o una caída evidente en el manómetro), existe una fuga en el sistema de alta presión (generalmente en el sello/empaque del yugo o en las conexiones). En ese caso, se debe reemplazar el sello, ajustar nuevamente el cilindro y repetir la prueba; si la fuga persiste, el equipo no debe utilizarse y debe reportarse a mantenimiento.
+
+---
+
+### 5. Influencia del sensor de O₂ en la prueba del sistema de control de flujo
+
+**Sí influye**, ya que determina el nivel de verificación que se puede realizar sobre la concentración real de oxígeno y el sistema de protección contra mezclas hipóxicas:
+
+* **Con sensor de O₂ instalado y calibrado:** Durante la prueba del sistema de control de flujo (donde se verifica el movimiento libre de los flotadores y el enlace proporcional $O_2 / N_2O$ que impide entregar menos de 25% de $O_2$), el sensor permite **confirmar cuantitativamente en pantalla** que la fracción inspirada de oxígeno ($FiO_2$) se mantiene por encima del límite seguro ($\ge 25\%$) al variar los flujos de $N_2O$ y $O_2$, además de validar el disparo correcto de las alarmas de baja concentración de oxígeno.
+* **Sin sensor de O₂ (o deshabilitado):** No es posible medir ni verificar electrónicamente la concentración real de oxígeno entregada al circuito ni probar la alarma de $FiO_2$ baja. La prueba queda limitada únicamente a una **verificación visual y mecánica** de los rotámetros (comprobando la proporción de flujos marcada por las escalas), por lo que en operación clínica se requeriría un monitor de oxígeno externo para garantizar la seguridad del paciente.
+
+---
+
+### 6. ¿Para qué se requiere el sistema de presión negativa?
+
+En la máquina de anestesia WATO EX-20, el sistema de presión negativa cumple dos funciones fundamentales:
+
+1. **Prueba de fugas del sistema de baja presión:** Durante la verificación preoperatoria se utiliza un **bulbo o pera de succión de presión negativa** conectado a la salida común de gas fresco (CGO). Al comprimir el bulbo se genera vacío en el circuito de baja presión (flujómetros, vaporizador y conductos internos hacia la CGO); si el bulbo permanece colapsado durante al menos **10 segundos** sin reinflarse, se confirma que no existen fugas hacia el interior del circuito de baja presión.
+2. **Evacuación de gases anestésicos residuales (AGSS) y succión clínica:** A nivel operativo en quirófano, la presión negativa (vacío) permite extraer de forma controlada los gases anestésicos exhalados y liberados por la válvula APL y el ventilador a través del sistema AGSS, evitando la contaminación ambiental y la exposición ocupacional del personal de salud (además de alimentar módulos de aspiración de secreciones si la estación cuenta con ellos).
 
 a. Vaporizador
 
