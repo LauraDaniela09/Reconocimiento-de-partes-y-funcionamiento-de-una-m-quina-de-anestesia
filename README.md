@@ -141,69 +141,67 @@ En el WATO EX-20:
 EX-20, explicando su función.
 <img width="1920" height="750" alt="image" src="https://github.com/user-attachments/assets/368bbcce-b775-4c16-bd16-667382415d0e" />
 
-## Parte B
-
-### 1. Identificación, ubicación y función de partes de la máquina de anestesia WATO EX-20
-
 | Componente | Ubicación en la WATO EX-20 | Función |
 | :--- | :--- | :--- |
-| **a. Vaporizador** | Parte frontal izquierda/central superior del cuerpo principal, montado sobre el colector/riel tipo Selectatec. | Convierte el agente anestésico líquido volátil (p. ej., sevoflurano, isoflurano o desflurano) en vapor y lo dosifica con precisión en el flujo de gas fresco antes de ingresar al circuito respiratorio del paciente. |
-| **b. Válvula APL** (*Adjustable Pressure-Limiting*) | Parte superior del módulo del circuito respiratorio, junto al interruptor Bolsa/Ventilador y al manómetro de presión de vía aérea. | Regula y limita la presión máxima dentro del circuito durante la ventilación manual o espontánea, liberando el exceso de gas hacia el sistema de evacuación (AGSS) para prevenir barotrauma. |
-| **c. Recipiente absorbente de CO₂** | Parte inferior del ensamblaje del circuito respiratorio (costado izquierdo frontal de la máquina), debajo del bloque del fuelle. | Contiene cal sodada (absorbente químico) que elimina el CO₂ exhalado por el paciente en el circuito semicerrado/cerrado, permitiendo la reinhalación segura de los gases frescos y anestésicos sin riesgo de hipercapnia. |
-| **d. Fuelle** | Parte superior del módulo del circuito respiratorio (lado izquierdo), dentro de una campana transparente graduada. | Actúa como interfaz neumática entre el gas impulsor del ventilador y el gas del paciente para entregar el volumen corriente en ventilación mecánica. Al ser un fuelle ascendente, también permite detectar visualmente fugas o desconexiones si no logra subir por completo durante la espiración. |
+| **a. Vaporizador** | Parte frontal izquierda/central superior del cuerpo principal, montado sobre el colector tipo Selectatec. | Convierte el agente anestésico líquido volátil (como sevoflurano, isoflurano o desflurano) en vapor y lo dosifica con precisión dentro del flujo de gas fresco antes de enviarlo al circuito respiratorio del paciente. |
+| **b. Válvula APL** (*Adjustable Pressure-Limiting*) | Parte superior del módulo del sistema respiratorio, junto al interruptor Bolsa/Ventilador y al manómetro de presión de vía aérea. | Regula y limita la presión máxima dentro del circuito durante la ventilación manual o espontánea, permitiendo la salida controlada del exceso de gas hacia el sistema de evacuación (AGSS) para evitar barotrauma. |
+| **c. Recipiente absorbente de CO₂** | Parte inferior del ensamblaje del sistema respiratorio (costado izquierdo frontal), debajo del bloque del fuelle. | Contiene cal sodada (material absorbente) que elimina químicamente el CO₂ exhalado por el paciente en el circuito circular, permitiendo la reinhalación segura de los gases frescos y anestésicos sin riesgo de hipercapnia. |
+| **d. Fuelle** | Parte superior del módulo del sistema respiratorio (lado izquierdo), alojado dentro de una campana transparente graduada. | Actúa como interfaz neumática entre el gas impulsor del ventilador y el gas del paciente para suministrar el volumen corriente en ventilación mecánica. Al ser ascendente, también sirve como indicador visual de fugas o desconexiones si no logra elevarse completamente durante la espiración. |
 
-> *Nota: Insertar aquí la fotografía de la máquina WATO EX-20 señalando las 4 partes (ej. `![Partes WATO EX-20](ruta/de/la/imagen.png)`).*
-
----
-
-### 2. Acción ante el mensaje "Batería en uso" con el paciente conectado
-
-Cuando el ventilador muestra el mensaje **"Batería en uso"**, significa que se ha perdido el suministro eléctrico de corriente alterna (CA) y el equipo está funcionando únicamente con su batería interna de respaldo. Las acciones a ejecutar son:
-
-1. **Verificar inmediatamente el suministro eléctrico:** Comprobar que el cable de alimentación esté bien conectado a la toma de corriente de la pared, verificar el interruptor principal y confirmar si hubo un corte de energía en el quirófano.
-2. **Mantener la monitorización y continuidad de la ventilación:** No desconectar al paciente de forma abrupta; la batería interna permite operar temporalmente (aproximadamente 90 minutos con una batería nueva y completamente cargada, o hasta 150 minutos con dos baterías) mientras se soluciona el fallo eléctrico.
-3. **Preparar ventilación de respaldo:** Vigilar el indicador de carga de la batería. Si no es posible restablecer la alimentación de CA antes de que se agote la batería, prepararse para cambiar a **ventilación manual** (usando el interruptor Bolsa/Ventilador) o disponer de un resucitador manual (bolsa autoinflable) y una fuente alternativa de oxígeno para garantizar la seguridad del paciente.
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b86e719-d075-43b2-a8b1-eba645391c87" />
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/aa4b3462-5309-4bdc-a562-4bd28cff3101" />
+<img width="719" height="1600" alt="image" src="https://github.com/user-attachments/assets/47c005ad-469f-44ae-bdbf-7e620c0b6fc6" />
 
 ---
 
-### 3. Frecuencia de reemplazo del recipiente absorbente de CO₂
+### 2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra conectado a la máquina, ¿qué acción debería ejecutarse?
 
-El absorbente de CO₂ (cal sodada) debe inspeccionarse antes de cada procedimiento y reemplazarse cuando se cumpla cualquiera de las siguientes condiciones:
+El mensaje **“batería en uso”** indica que la máquina perdió la alimentación eléctrica de corriente alterna (CA) y está operando con su batería interna de respaldo. Ante esta situación se debe:
 
-* **Cambio de color del indicador:** Cuando el material absorbente cambie de color (por ejemplo, de blanco a violeta/púrpura según el fabricante) en aproximadamente **dos tercios (2/3)** de la columna del recipiente, o de acuerdo con las indicaciones específicas del fabricante de la cal sodada.
-* **Elevación de CO₂ inspirado ($FiCO_2$):** Si el monitor de capnografía muestra un aumento en el CO₂ inspirado por el paciente, lo cual confirma el agotamiento real del absorbente (es el criterio más confiable, ya que el color puede revertirse parcialmente cuando el equipo queda en reposo).
-* **Desecación o inactividad prolongada:** Si la máquina ha permanecido sin uso durante un período prolongado o con flujo continuo de gas que haya resecado la cal sodada, ya que el absorbente seco puede generar reacciones exotérmicas peligrosas y producir monóxido de carbono o compuestos tóxicos al entrar en contacto con anestésicos volátiles.
+- **Verificar inmediatamente la alimentación de CA:** Comprobar que el cable de poder esté bien conectado a la toma de corriente, revisar el interruptor principal del equipo y confirmar si hubo un corte de energía en la red del quirófano.
+- **Mantener la ventilación y vigilar el nivel de carga:** No desconectar al paciente de forma brusca. La batería interna proporciona una autonomía temporal (aproximadamente 90 minutos con una batería nueva completamente cargada, o hasta 150 minutos con dos baterías) mientras se restablece el suministro eléctrico.
+- **Preparar ventilación de respaldo:** Si la energía de CA no se restablece antes de que la batería alcance un nivel crítico, el operador debe estar listo para cambiar a **ventilación manual** mediante el interruptor Bolsa/Ventilador o utilizar un resucitador manual (bolsa autoinflable) con una fuente alterna de oxígeno.
 
 ---
 
-### 4. Procedimiento para verificar fugas en el cilindro de alta presión
+### 3. ¿Con qué frecuencia debería reemplazarse el recipiente absorbente de CO₂?
 
-Para comprobar la estanqueidad del sistema de alta presión (cilindros de respaldo de O₂ o N₂O) en la WATO EX-20:
+El absorbente de CO₂ (cal sodada) debe inspeccionarse antes de cada procedimiento quirúrgico y reemplazarse cuando ocurra cualquiera de las siguientes condiciones:
 
-1. **Desconectar** las mangueras de suministro de gas de la red central (tuberías de pared) para aislar el sistema de cilindros.
-2. **Cerrar** completamente todas las válvulas de control de flujo (flujómetros) en el panel frontal.
-3. **Abrir lentamente** la válvula del cilindro a evaluar y observar la presión registrada en el manómetro correspondiente del cilindro (verificando que tenga presión suficiente para la prueba).
+- **Cambio de color del indicador:** Cuando aproximadamente **dos tercios (2/3)** del contenido del recipiente hayan cambiado de color (por ejemplo, de blanco a violeta/púrpura), siguiendo siempre la recomendación del fabricante de la cal sodada.
+- **Aumento de CO₂ inspirado ($FiCO_2$):** Si el monitor de capnografía registra la presencia o elevación de CO₂ inspirado, lo cual confirma que el absorbente está agotado (este es el criterio más fiable, ya que el color puede revertirse parcialmente cuando el equipo queda en reposo).
+- **Desecación o inactividad prolongada:** Si el equipo permaneció sin uso por un tiempo prolongado o con flujo continuo de gas que haya secado el absorbente, ya que la cal sodada seca puede reaccionar exotérmicamente con los agentes anestésicos volátiles y generar monóxido de carbono u otros compuestos tóxicos.
+
+---
+
+### 4. ¿Cuál es el procedimiento para verificar si hay fuga en el cilindro de alta presión?
+
+Para comprobar la estanqueidad del sistema de alta presión (cilindros de respaldo de O₂ o N₂O) en la WATO EX-20 se sigue este procedimiento:
+
+1. **Desconectar** las mangueras de suministro de gas de la red central (tuberías de pared) para aislar los cilindros.
+2. **Cerrar** completamente todas las válvulas de control de flujo (flujómetros).
+3. **Abrir lentamente** la válvula del cilindro que se va a evaluar y registrar la lectura en su manómetro correspondiente (verificando que tenga presión suficiente para la prueba).
 4. **Cerrar** por completo la válvula del cilindro.
 5. **Observar el manómetro** durante **1 minuto**.
-6. **Evaluar el resultado:** La presión debe mantenerse estable. Si se observa una caída significativa de presión (superior a **50 psi / ~0.35 MPa** en 1 minuto para O₂, o una caída evidente en el manómetro), existe una fuga en el sistema de alta presión (generalmente en el sello/empaque del yugo o en las conexiones). En ese caso, se debe reemplazar el sello, ajustar nuevamente el cilindro y repetir la prueba; si la fuga persiste, el equipo no debe utilizarse y debe reportarse a mantenimiento.
+6. **Evaluar el resultado:** La presión debe permanecer estable. Si se observa una caída significativa de presión (superior a **50 psi / ~0.35 MPa** en 1 minuto para O₂, o una pérdida evidente en el manómetro), existe una fuga en el sistema de alta presión (usualmente en el empaque/sello del yugo o en las conexiones). En ese caso se debe reemplazar el sello, ajustar nuevamente el cilindro y repetir la prueba; si la fuga persiste, el equipo no debe ponerse en servicio.
 
 ---
 
-### 5. Influencia del sensor de O₂ en la prueba del sistema de control de flujo
+### 5. ¿Influye el contar o no con el sensor de O₂ al hacer la prueba sobre el sistema de control de flujo? ¿De qué forma?
 
-**Sí influye**, ya que determina el nivel de verificación que se puede realizar sobre la concentración real de oxígeno y el sistema de protección contra mezclas hipóxicas:
+**Sí influye**, ya que determina si es posible verificar de manera electrónica y cuantitativa la concentración real de oxígeno suministrada y el sistema de protección contra mezclas hipóxicas:
 
-* **Con sensor de O₂ instalado y calibrado:** Durante la prueba del sistema de control de flujo (donde se verifica el movimiento libre de los flotadores y el enlace proporcional $O_2 / N_2O$ que impide entregar menos de 25% de $O_2$), el sensor permite **confirmar cuantitativamente en pantalla** que la fracción inspirada de oxígeno ($FiO_2$) se mantiene por encima del límite seguro ($\ge 25\%$) al variar los flujos de $N_2O$ y $O_2$, además de validar el disparo correcto de las alarmas de baja concentración de oxígeno.
-* **Sin sensor de O₂ (o deshabilitado):** No es posible medir ni verificar electrónicamente la concentración real de oxígeno entregada al circuito ni probar la alarma de $FiO_2$ baja. La prueba queda limitada únicamente a una **verificación visual y mecánica** de los rotámetros (comprobando la proporción de flujos marcada por las escalas), por lo que en operación clínica se requeriría un monitor de oxígeno externo para garantizar la seguridad del paciente.
+- **Con sensor de O₂ instalado y calibrado:** Al realizar la prueba del sistema de control de flujo (donde se evalúa el libre desplazamiento de los flotadores y el enlace proporcional $O_2 / N_2O$ que impide entregar menos del 25 % de $O_2$), el sensor permite **confirmar en pantalla** que la concentración inspirada de oxígeno ($FiO_2$) se mantiene por encima del límite seguro ($\ge 25\%$) al variar los flujos, además de comprobar que las alarmas de baja concentración de oxígeno se activen correctamente.
+- **Sin sensor de O₂ (o deshabilitado):** No es posible medir electrónicamente la concentración real de oxígeno entregada al circuito ni probar las alarmas de $FiO_2$ baja. La verificación queda limitada únicamente a una **inspección visual y mecánica** de las escalas de los rotámetros, por lo que en uso clínico sería obligatorio emplear un monitor de oxígeno externo para garantizar la seguridad del paciente.
 
 ---
 
 ### 6. ¿Para qué se requiere el sistema de presión negativa?
 
-En la máquina de anestesia WATO EX-20, el sistema de presión negativa cumple dos funciones fundamentales:
+En la máquina de anestesia WATO EX-20, el sistema de presión negativa cumple dos propósitos principales:
 
-1. **Prueba de fugas del sistema de baja presión:** Durante la verificación preoperatoria se utiliza un **bulbo o pera de succión de presión negativa** conectado a la salida común de gas fresco (CGO). Al comprimir el bulbo se genera vacío en el circuito de baja presión (flujómetros, vaporizador y conductos internos hacia la CGO); si el bulbo permanece colapsado durante al menos **10 segundos** sin reinflarse, se confirma que no existen fugas hacia el interior del circuito de baja presión.
-2. **Evacuación de gases anestésicos residuales (AGSS) y succión clínica:** A nivel operativo en quirófano, la presión negativa (vacío) permite extraer de forma controlada los gases anestésicos exhalados y liberados por la válvula APL y el ventilador a través del sistema AGSS, evitando la contaminación ambiental y la exposición ocupacional del personal de salud (además de alimentar módulos de aspiración de secreciones si la estación cuenta con ellos).
+1. **Prueba de fugas del sistema de baja presión:** Durante la verificación preoperatoria se conecta un **bulbo o pera de succión de presión negativa** a la salida común de gas fresco (CGO). Al comprimir el bulbo se genera vacío en el circuito de baja presión (flujómetros, vaporizador y conductos hacia la CGO); si el bulbo permanece colapsado durante al menos **10 segundos** sin volver a inflarse, se confirma que no hay fugas en esta sección.
+2. **Evacuación de gases anestésicos residuales (AGSS) y succión clínica:** Durante la operación en quirófano, la presión negativa (vacío) permite extraer de forma segura los gases anestésicos exhalados y liberados por la válvula APL y el ventilador a través del sistema AGSS, evitando la contaminación del quirófano y la exposición ocupacional del personal de salud (además de alimentar módulos de aspiración de secreciones si el equipo dispone de ellos).
 
 # <h2 align="center"> CONCLUSIóN </h2>
 
