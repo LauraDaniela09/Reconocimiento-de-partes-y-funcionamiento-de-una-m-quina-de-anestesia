@@ -205,29 +205,6 @@ En la máquina de anestesia WATO EX-20, el sistema de presión negativa cumple d
 1. **Prueba de fugas del sistema de baja presión:** Durante la verificación preoperatoria se utiliza un **bulbo o pera de succión de presión negativa** conectado a la salida común de gas fresco (CGO). Al comprimir el bulbo se genera vacío en el circuito de baja presión (flujómetros, vaporizador y conductos internos hacia la CGO); si el bulbo permanece colapsado durante al menos **10 segundos** sin reinflarse, se confirma que no existen fugas hacia el interior del circuito de baja presión.
 2. **Evacuación de gases anestésicos residuales (AGSS) y succión clínica:** A nivel operativo en quirófano, la presión negativa (vacío) permite extraer de forma controlada los gases anestésicos exhalados y liberados por la válvula APL y el ventilador a través del sistema AGSS, evitando la contaminación ambiental y la exposición ocupacional del personal de salud (además de alimentar módulos de aspiración de secreciones si la estación cuenta con ellos).
 
-a. Vaporizador
-
-b. Válvula APL
-
-c. Recipiente absorbente de CO2
-
-
-d. Fuelle
-
-2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra
-conectado a la máquina ¿Qué acción debería ejecutarse?
-
-3. ¿Con qué frecuencia debería reemplazarse el recipiente absorbente de CO2?
-
-4. ¿Cuál es el procedimiento para verificar si hay fuga en el cilindro de alta
-presión?
-
-5. ¿Influye el contar o no con el sensor de O2 al hacer la prueba sobre el sistema
-de control de flujo? ¿De qué forma?
-
-6. ¿Para qué se requiere el sistema de presión negativa?
-
-
 # <h2 align="center"> CONCLUSIóN </h2>
 
 <h2 align="center">𝘽𝙞𝙗𝙡𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙖</h2>
