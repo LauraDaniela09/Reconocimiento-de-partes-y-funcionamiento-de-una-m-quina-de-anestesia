@@ -28,10 +28,13 @@ Reconocer los componentes, el funcionamiento y las labores de mantenimiento de l
 
 𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨 𝙀𝙨𝙥𝙚𝙘𝙞́𝙛𝙞𝙘𝙤𝙨:
 
-Identificar y ubicar las partes principales de la máquina de anestesia WATO EX-20 (vaporizador, válvula APL, recipiente absorbente de CO₂ y fuelle), explicando la función de cada una.
-Comprender el funcionamiento del sistema respiratorio, del ventilador y de sus modos de operación (VCV y modo presión), así como la configuración de parámetros como la pausa inspiratoria.
+1. Identificar y ubicar las partes principales de la máquina de anestesia WATO EX-20 (vaporizador, válvula APL, recipiente absorbente de CO₂ y fuelle), explicando la función de cada una.
+
+2. Comprender el funcionamiento del sistema respiratorio, del ventilador y de sus modos de operación (VCV y modo presión), así como la configuración de parámetros como la pausa inspiratoria.
 Reconocer la importancia de las pruebas preoperatorias y de las labores de mantenimiento (prueba de fugas de alta y baja presión, reemplazo de la cal sodada, calibración del sensor de O₂).
-Analizar las fallas más frecuentes de los subsistemas de la máquina, sus causas y su relación con la seguridad del paciente, a partir del manual del fabricante.
+
+4. Analizar las fallas más frecuentes de los subsistemas de la máquina, sus causas y su relación con la seguridad del paciente, a partir del manual del fabricante.
+
 <h2 align="center">𝙋𝙧𝙤𝙘𝙚𝙙𝙞𝙢𝙞𝙚𝙣𝙩𝙤</h2>
 
 La práctica fue de tipo demostrativo y se desarrolló en las siguientes etapas:
