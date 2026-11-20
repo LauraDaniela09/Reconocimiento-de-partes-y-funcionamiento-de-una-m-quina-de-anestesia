@@ -304,12 +304,21 @@ Estas causas comparten un origen humano y, por lo tanto, son en gran medida prev
 
 <h2 align="center">𝘽𝙞𝙗𝙡𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙖</h2>
 [1] Anaesthesia. (2023, 9 marzo). https://es.patient.info/treatment-medication/anaesthesia
+
 [2] Technology, S., & Technology, S. (2026, 18 noviembre). ¿Cuáles son los diferentes tipos de anestesia? INVAMED. https://invamed.com/es/noticias/cules-son-los-diferentes-tipos-de-anestesia
+
 [3] Pinheiro, P. (2016, 25 enero). Tipos de anestesia: general, local, raquídea y epidural. Mdsaude. Recuperado 18 de noviembre de 2026, de https://www.mdsaude.com/es/cirugia/anestesia/
+
 [4] Máquinas de anestesia: WATO EX-20 - Mindray. (s. f.). Mindray. https://www.mindray.com/mx/products/anesthesia/wato-ex-20 
+
 [5] Kalstein. (s. f.). Kalstein+ | Plataforma Integral de Equipamiento Científico e Industrial. Kalstein. https://kalstein.net/es/maquina-de-anestesia-partes-y-funcion
+
 [6] Yepes, T. (2026, 9 mayo). Máquina de anestesia: componentes, tipos y cómo elegir. GSMED. https://gsmedimaging.com/blogs/noticias-de-tecnologia-medica/maquina-de-anestesia
+
 [7] Tsim, P., & Howatson, A. (2016). Sistemas respiratorios en anestesia (N. Bracho, Trad.). ATOTW, 333. https://resources.wfsahq.org/wp-content/uploads/333_spanish.pdf
+
 [8] Beaulieu, P., Nathan-Denizot, N., & Feiss, P. (s. f.). Aparatos de anestesia. EMC, 39. https://www.sciencedirect.com/science/article/abs/pii/S1280470313658338
+
 [9]
+
 [10]
